@@ -35,8 +35,10 @@ class ViewController: UIViewController {
     imageView2.animationRepeatCount = 0
 //    imageView.startAnimating()
 //    start(self)
-    delayTimer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self, selector: "delayStart:", userInfo: nil, repeats: true)
-    restartTimer = NSTimer.scheduledTimerWithTimeInterval(5.0, target: self, selector: "reStart:", userInfo: nil, repeats: true)
+    delayTimer = NSTimer.scheduledTimerWithTimeInterval(0.5, target: self,
+      selector: "delayStart:", userInfo: nil, repeats: true)
+    restartTimer = NSTimer.scheduledTimerWithTimeInterval(5.0, target: self,
+      selector: "reStart:", userInfo: nil, repeats: true)
   }
   override func viewDidAppear(animated: Bool) {
     start(self)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		607281FE1D1910EE0068EF08 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607281FD1D1910EE0068EF08 /* Beacon.swift */; settings = {ASSET_TAGS = (); }; };
 		60EE4E6F1D17719A006135E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EE4E6E1D17719A006135E7 /* AppDelegate.swift */; };
 		60EE4E711D17719A006135E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EE4E701D17719A006135E7 /* ViewController.swift */; };
 		60EE4E741D17719A006135E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EE4E721D17719A006135E7 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		607281FD1D1910EE0068EF08 /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
 		60EE4E6B1D17719A006135E7 /* Rbp400.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rbp400.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EE4E6E1D17719A006135E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60EE4E701D17719A006135E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		60EE4E6D1D17719A006135E7 /* Rbp400 */ = {
 			isa = PBXGroup;
 			children = (
+				607281FD1D1910EE0068EF08 /* Beacon.swift */,
 				60EE4E6E1D17719A006135E7 /* AppDelegate.swift */,
 				60EE4E701D17719A006135E7 /* ViewController.swift */,
 				60EE4E841D178938006135E7 /* off.png */,
@@ -145,6 +148,7 @@
 			files = (
 				60EE4E711D17719A006135E7 /* ViewController.swift in Sources */,
 				60EE4E6F1D17719A006135E7 /* AppDelegate.swift in Sources */,
+				607281FE1D1910EE0068EF08 /* Beacon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +296,7 @@
 				60EE4E7F1D17719A006135E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
